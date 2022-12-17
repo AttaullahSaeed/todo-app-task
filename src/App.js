@@ -68,7 +68,7 @@ const App = () => {
 
   return (
     <>
-      <section className="mx-auto w-[50%] bg-white p-5 shadow-lg mt-20">
+      <section className="mx-auto w-[50%] bg-white p-5 shadow-lg mt-20 ">
         <form onSubmit={handleSubmit}>
           {alert.show && (
             <Alert {...alert} removeAlert={showAlert} list={list} />
